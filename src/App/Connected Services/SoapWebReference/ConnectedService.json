@@ -1,0 +1,15 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.3",
+  "ExtendedData": {
+    "inputs": [
+      "https://localhost:5001/SoapService/https"
+    ],
+    "namespaceMappings": [
+      "*, App.SoapService"
+    ],
+    "outputFile": "SoapWebReference.cs",
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}
