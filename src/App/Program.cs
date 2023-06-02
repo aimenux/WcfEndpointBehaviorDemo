@@ -1,7 +1,7 @@
 ﻿using App;
 using App.SoapService;
 using Microsoft.Extensions.DependencyInjection;
-using static SoapServiceConstants;
+using static App.SoapServiceConstants;
 
 var services = new ServiceCollection();
 

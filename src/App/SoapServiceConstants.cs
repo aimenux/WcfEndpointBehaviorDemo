@@ -1,5 +1,7 @@
 ﻿using SoapEndpointConfiguration = App.SoapService.SoapServiceClient.EndpointConfiguration;
 
+namespace App;
+
 public static class SoapServiceConstants
 {
     public static class Http
