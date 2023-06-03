@@ -5,7 +5,10 @@ using static App.SoapServiceConstants;
 
 var services = new ServiceCollection();
 
-services.AddHttpClient<SoapHttpClientBehavior>();
+services
+    .AddHttpClient<SoapHttpClientBehavior>()
+    .SetHandlerLifetime(TimeSpan.FromMinutes(5))
+    .AddRetryPolicyHandler();
 
 services.AddScoped(_ =>
 {
