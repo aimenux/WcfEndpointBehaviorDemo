@@ -15,4 +15,4 @@ The `App` console app use two [custom endpoint behaviour](https://justsimplycode
 - `SoapLoggingBehaviour` : log soap requests/responses
 - `SoapHttpClientBehavior` : use httpclient for soap requests/responses
 
-**`Tools`** : net 6.0, wcf-core
+**`Tools`** : net 6.0, wcf-core, polly
