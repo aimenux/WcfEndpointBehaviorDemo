@@ -9,11 +9,6 @@ public interface ISoapService
     
 public class SoapService : ISoapService
 {
-    public string GetHelloMessage()
-    {
-        return $"Hello {Guid.NewGuid():N}";
-    }
-
     public SoapContracts.Response Compute(SoapContracts.Request request)
     {
         var sum = request.X + request.Y;
